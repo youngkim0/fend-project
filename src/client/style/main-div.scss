@@ -1,0 +1,30 @@
+.main-div {
+  background: linear-gradient(
+    to bottom right,
+    rgba(244, 244, 244, 0.4),
+    rgba(233, 233, 233, 0.1)
+  );
+
+  padding: 30px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 1px solid rgba(000, 000, 000, 0.3);
+  min-height: 80vh;
+  width: 80%;
+  text-align: center;
+
+  .result_output {
+    margin-top: 50px;
+  }
+
+  textarea {
+    resize: none;
+    align-self: center;
+  }
+  .btn {
+    width: 30%;
+    align-self: center;
+    height: 60px;
+  }
+}
