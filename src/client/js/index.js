@@ -1,4 +1,4 @@
-import "./style/main.scss";
+import "../style/main.scss";
 
 const post_url = "http://localhost:8080/post";
 const get_url = "http://localhost:8080/get";
